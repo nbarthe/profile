@@ -1,0 +1,107 @@
+
+body {
+  background-image: url('images/sea-smet.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: 2000px;
+  background-position: center;
+  font-family: 'Gamja Flower', serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+h3 {
+  font-family: 'Indie Flower', serif;
+  font-style: italic
+  color: #405560;
+}
+h1 {
+  color: #8CB3CE;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Indie Flower', serif;
+}
+h2 {
+  color: #021014;
+  font-family: 'Indie Flower';
+  font-size: 18px;
+  font-weight: light;
+  font-weight: 500;
+  font-style: italic;
+}
+a {
+  font-family: 'Indie Flower', serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: italic
+}
+a:hover {
+  color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: #CCE8F9;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  margin: 4px 280px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.minicard-white {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 55px;
+
+}
+
+.card-lightblue {
+  background: #CCE8F9;
+  padding: 2px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 20px 400px;
+  text-align: center;
+  box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+
+}
+
+.card-lighterblue {
+  background: #CCE8F9;
+  padding: 10px;
+  border: 5px solid lightgrey;
+  border-radius: 4px;
+  margin: 30px 500px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  border: 1px solid lightgrey
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
